@@ -7,11 +7,15 @@ EDA → feature engineering → preprocessing → baseline regression → cross-
 
 ---
 
-## Dataset
+## Dataset & License
 Hourly aggregated bike rental demand data from Seoul’s public bike-sharing system, combined with ASOS weather variables (temperature, precipitation, wind speed, humidity, solar radiation, etc.).
 
 - Target: `Rented_Bike_Count`
-- More dataset + licensing details: see **`DATASET.md`**
+
+Sources: Seoul Open Data Plaza (data.seoul.go.kr) + KMA ASOS (data.kma.go.kr).  
+License: KOGL Type 1 (Attribution Required) — https://www.kogl.or.kr/info/license.do  
+This is an independent educational work; not affiliated with or endorsed by the data providers.
+
 
 ---
 
