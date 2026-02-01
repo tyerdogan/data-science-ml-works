@@ -1,4 +1,4 @@
-# Iris Flower Classification
+# Iris Flower Assignment
 
 ## Overview
 This project builds a Machine Learning model to predict the species of Iris flowers using the classic **Iris Dataset**.  
