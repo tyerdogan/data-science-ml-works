@@ -1,41 +1,41 @@
-Iris Flower Classification
+# Iris Flower Classification
 
-Project Overview
+## Overview
+This project builds a Machine Learning model to predict the species of Iris flowers using the classic **Iris Dataset**.  
+The main goal is to train and compare two baseline classifiers and evaluate their performance.
 
-This project builds a Machine Learning classifier to predict the species of Iris flowers using the classic Iris Dataset. The main objective is to train and compare two baseline classification algorithms and evaluate which one performs better.
+## Dataset
+The dataset contains measurements for three Iris species:
+- Iris-setosa
+- Iris-versicolor
+- Iris-virginica
 
-Dataset
+**Features**
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
-The dataset includes measurements for three Iris species:
-	•	Iris-setosa
-	•	Iris-versicolor
-	•	Iris-virginica
+## Project Workflow
 
-Features
-	•	Sepal Length
-	•	Sepal Width
-	•	Petal Length
-	•	Petal Width
+### 1) Exploratory Data Analysis (EDA)
+- Visualized feature distributions using **box plots**
+- Analyzed feature relationships using a **correlation heatmap**
 
-Workflow
+**Observation:** *Petal Length* and *Petal Width* provide the clearest separation between species and appear to be the most informative features.
 
-1) Exploratory Data Analysis (EDA)
-	•	Visualized feature distributions using box plots
-	•	Checked relationships between features using a correlation heatmap
+### 2) Data Preparation
+- Checked for missing values (dataset is clean)
+- Converted species labels into numeric values (**Label Encoding**)
+- Split the data into **training** and **test** sets
+- Scaled the features to support better model performance
 
-Key insight: Petal Length and Petal Width show the strongest separation between species and appear to be the most informative features.
+### 3) Modeling
+Trained two classic classifiers:
+- **Logistic Regression**
+- **Support Vector Machine (SVM)**
 
-2) Data Preparation
-	•	Verified there are no missing values
-	•	Encoded target labels using Label Encoding
-	•	Split the dataset into train/test sets
-	•	Applied feature scaling to improve model performance and training stability
-
-3) Modeling & Evaluation
-Trained and compared two classic classifiers:
-	•	Logistic Regression
-	•	Support Vector Machine (SVM)
-
-Model performance was evaluated on the test set to compare classification results.
-
-⸻
+## Results & Notes
+- The Iris dataset is **small and very clean**, so both models achieved **the same performance**.
+- Baseline models reached **1.0 test accuracy**, so there was **limited room for improvement** with further tuning.
+- I also included **GridSearchCV as an optional step** to demonstrate hyperparameter tuning, but it did not meaningfully improve results due to the already perfect baseline performance.
