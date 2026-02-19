@@ -1,4 +1,4 @@
-# data-science-ml-works
+# DataScience-ML-Works
 
 Collection of Data Science & Machine Learning assignment notebooks — built in Google Colab.
 
@@ -13,3 +13,6 @@ Thanks to the instructor for the structured curriculum and the assignment prompt
 
 ## Disclaimer
 These are independent educational works and are not affiliated with or endorsed by the original data providers or course platforms.
+
+## Notes
+This repo is a work-in-progress and will be updated as new projects are completed.
