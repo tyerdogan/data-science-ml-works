@@ -1,6 +1,6 @@
 # DataScience-ML-Works
 
-Collection of Data Science & Machine Learning assignment notebooks — built in Google Colab.
+Collection of Data Science & Machine Learning assignment notebooks.
 
 ## How to use
 Each folder is a self-contained mini-project with its own README and dataset notes.
